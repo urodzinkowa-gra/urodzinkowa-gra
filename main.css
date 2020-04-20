@@ -1,0 +1,59 @@
+body
+{
+    font-family: "Comic Sans MS", sans-serif;
+    background-color: rgb(110, 200, 250);
+}
+#main
+{
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: white;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#title
+{
+    font-size: 50px;
+    padding-left: 5%;
+    padding-right:0px;
+    padding-top:3px;
+    padding-top:3px;
+    font-family: Courier, monospace;
+}
+#hidden-title
+{
+    position:absolute;
+    top:20px;
+    right:20px;
+    font-size:30px;
+    color: rgb(110, 200, 250);
+    text-align: right;
+    margin-right:5%;
+    margin-left: 30px;
+}
+#hidden-title:hover
+{
+    color:white;
+}
+#title:hover
+{
+    color: white;
+    text-decoration:underline;
+    text-decoration-color: blue;
+}
+#zasady
+{
+    padding-bottom:5px;
+    padding-top:10px;
+    border-top: 3px dashed grey;
+}
+#tip
+{
+    color:black;
+    text-decoration:transparent;
+}
+#tipp:hover
+{
+    color:blue;
+}
